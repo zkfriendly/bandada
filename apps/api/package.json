@@ -3,7 +3,8 @@
     "private": true,
     "license": "MIT",
     "scripts": {
-        "dev": "rimraf data && nest start --watch",
+        "dev": "nest start --watch",
+        "dev:clean": "rimraf data && nest start --watch",
         "start": "node dist/main",
         "build": "nest build"
     },
